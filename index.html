@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Formulario del Censo de la Iglesia</title>
+    <style>
+        body {
+            background-color: #f2f2f2;
+            /* Color de fondo para el body */
+            font-family: Arial, sans-serif;
+            /* Fuente para todo el contenido */
+            color: #333;
+            /* Color del texto */
+            line-height: 1.5;
+            /* Espacio entre líneas */
+        }
+
+        .container {
+            max-width: 800px;
+            /* Ancho máximo para el contenido */
+            margin: 0 auto;
+            /* Centrar el contenido horizontalmente */
+            padding: 20px;
+            /* Añadir un poco de espacio alrededor del contenido */
+            background-color: #fff;
+            /* Color de fondo para el contenedor */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            /* Sombra para el contenedor */
+        }
+
+        h1 {
+            font-size: 2rem;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+
+        /* Estilos generales del formulario */
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Estilos para los títulos de las secciones */
+        h2 {
+            font-size: 24px;
+            margin-top: 40px;
+        }
+
+        /* Estilos para las etiquetas de los campos */
+        label {
+            display: block;
+            margin-top: 20px;
+            font-size: 18px;
+        }
+
+        /* Estilos para los campos de entrada de texto */
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"] {
+            width: 100%;
+            font-size: 16px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-top: 5px;
+        }
+
+        /* Estilos para los campos de selección */
+        select {
+            width: 100%;
+            font-size: 16px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-top: 5px;
+        }
+
+        /* Estilos para los campos de checkbox */
+        input[type="checkbox"] {
+            margin-right: 10px;
+        }
+
+        /* Estilos para el botón de enviar */
+        button[type="submit"] {
+            background-color: #337ab7;
+            color: #fff;
+            font-size: 18px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+
+        /* Estilos para los mensajes de error */
+        .error-message {
+            color: red;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+        .submit-button {
+            background-color: #337ab7;
+            color: #fff;
+            font-size: 18px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            cursor: pointer;
+          }
+          
+          .submit-button:hover {
+            background-color: #2e6da4;
+          }
+          
+        @media (max-width: 767px) {
+
+            /* Estilos para el contenedor */
+            .container {
+                max-width: 90%;
+                padding: 10px;
+            }
+        
+            /* Estilos para los títulos de las secciones */
+            h2 {
+                font-size: 20px;
+                margin-top: 20px;
+            }
+        
+            /* Estilos para las etiquetas de los campos */
+            label {
+                font-size: 16px;
+            }
+        
+            /* Estilos para los campos de entrada de texto */
+            input[type="text"],
+            input[type="email"],
+            input[type="tel"] {
+                font-size: 14px;
+                padding: 8px;
+            }
+        
+            /* Estilos para los campos de selección */
+            select {
+                font-size: 14px;
+                padding: 8px;
+            }
+        
+            /* Estilos para el botón de enviar */
+            button[type="submit"] {
+                font-size: 16px;
+                padding: 8px 16px;
+            }
+        
+        }
+        
+
+
+    </style>
+</head>
+
+<body>
+    <div class="form-container">
+        <h1>Formulario del Censo de la Iglesia</h1>
+        <form>
+            <div class="form-section">
+                <label for="nombre-iglesia">Nombre de la Iglesia:</label>
+                <input type="text" id="nombre-iglesia" name="nombre-iglesia" />
+                <label for="fecha">Fecha:</label>
+                <input type="date" id="fecha" name="fecha" />
+            </div>
+            <div class="form-section">
+                <h2>Información Personal</h2>
+                <label for="nombre-completo">Nombre completo:</label>
+                <input type="text" id="nombre-completo" name="nombre-completo" />
+                <label for="fecha-nacimiento">Fecha de nacimiento:</label>
+                <input type="date" id="fecha-nacimiento" name="fecha-nacimiento" />
+                <label>Género:</label>
+                <input type="radio" id="masculino" name="genero" value="masculino" />
+                <label for="masculino">Masculino</label>
+                <input type="radio" id="femenino" name="genero" value="femenino" />
+                <label for="femenino">Femenino</label>
+                <input type="radio" name="genero" value="otro" />
+                <label for="direccion">Dirección:</label>
+                <input type="text" id="direccion" name="direccion" />
+                <label for="ciudad">Ciudad:</label>
+                <input type="text" id="ciudad" name="ciudad" />
+                <label for="estado">Estado:</label>
+                <input type="text" id="estado" name="estado" />
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" />
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" />
+                <label for="bautizado">¿Está bautizado/a?</label>
+                <input type="radio" id="bautizado-si" name="bautizado" value="si" />
+                <label for="bautizado-si">Sí</label>
+                <input type="radio" id="bautizado-no" name="bautizado" value="no" />
+                <label for="bautizado-no">No</label>
+            </div>
+            <div class="form-section">
+                <h2>Estado Civil</h2>
+                <label for="casado">¿Está casado/a?</label>
+                <input type="radio" id="casado-si" name="casado" value="si" />
+                <label for="casado-si">Sí</label>
+                <input type="radio" id=">
+          <input type=" checkbox" name="casado" value="no" />
+                No
+                <br />
+                <label>Si respondió "sí", por favor indique el nombre de su
+                    cónyuge:</label>
+                <input type="text" name="nombre-conyuge" />
+                <br />
+                <label>¿Está divorciado/a?</label>
+                <input type="checkbox" name="divorciado" value="si" />
+                Sí
+                <input type="checkbox" name="divorciado" value="no" />
+                No
+                <br />
+                <label>¿Está viudo/a?</label>
+                <input type="checkbox" name="viudo" value="si" />
+                Sí
+                <input type="checkbox" name="viudo" value="no" />
+                No
+                <br />
+                <h2>Información Familiar</h2>
+                <label>¿Tiene hijos?</label>
+                <input type="checkbox" name="hijos" value="si" />
+                Sí
+                <input type="checkbox" name="hijos" value="no" />
+                No
+                <br />
+                <label>Si respondió "sí", por favor indique la cantidad de hijos:</label>
+                <input type="number" name="cantidad-hijos" min="0" max="10" />
+                <br />
+                <label>¿Tiene nietos?</label>
+                <input type="checkbox" name="nietos" value="si" />
+                Sí
+                <input type="checkbox" name="nietos" value="no" />
+                No
+                <br />
+                <label>Si respondió "sí", por favor indique la cantidad de nietos:</label>
+                <input type="number" name="cantidad-nietos" min="0" max="20" />
+                <br />
+                <h2>Afiliación a la Iglesia</h2>
+                <label>¿Es miembro de la iglesia?</label>
+                <input type="checkbox" name="miembro" value="si" />
+                Sí
+                <input type="checkbox" name="miembro" value="no" />
+                No
+                <br />
+                <label>Si respondió "sí", por favor indique desde cuándo es
+                    miembro:</label>
+                <input type="text" name="fecha-miembro" />
+                <br />
+                <label>¿Asiste regularmente a los servicios de la iglesia?</label>
+                <input type="checkbox" name="asistencia" value="si" />
+                Sí
+                <input type="checkbox" name="asistencia" value="no" />
+                No
+                <br />
+                <label>Si respondió "sí", por favor indique con qué frecuencia:</label>
+                <input type="text" name="frecuencia-asistencia" />
+                <br />
+                <h2>Habilidades y Talento</h2>
+                <label>¿Tiene habilidades especiales que pueda compartir con la iglesia?
+                </label>
+                <input type="radio" name="habilidades" value="si" />Sí
+                <input type="radio" name="habilidades" value="no" />No<br />
+
+                <label>Si respondió "sí", por favor especifique:</label>
+                <input type="text" name="habilidades_especificar" /><br /><br />
+
+                <label>¿Está interesado/a en servir en algún ministerio de la iglesia?
+                </label>
+                <input type="radio" name="ministerio" value="si" />Sí
+                <input type="radio" name="ministerio" value="no" />No<br />
+
+                <label>Si respondió "sí", por favor especifique:</label>
+                <input type="text" name="ministerio_especificar" /><br /><br />
+                <button type="submit" class="submit-button">Enviar</button>
+
+
+                <p>
+                    Gracias por tomarse el tiempo para completar este formulario del
+                    censo de la iglesia. La información que ha proporcionado nos ayudará
+                    a mejorar nuestro ministerio y cuidado pastoral.
+                </p>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
