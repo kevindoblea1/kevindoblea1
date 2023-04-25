@@ -11,7 +11,6 @@ Hi, I'm Kevin Alvarenga, a Full Stack Developer 🚀 from Honduras![:honduras:
 - 🤔 I'm looking for help with the lerning route
 - 💬 Ask me about tech support.
 - 📫 How to reach me: kevin.alvarenga93@gmail.com
-- ⚡ Fun facts: I am from Honduras.
 
 # My stats 
 
