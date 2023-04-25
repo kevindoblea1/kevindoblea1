@@ -1,16 +1,20 @@
-# github-profile-summary-cards-example
+# Kevindoblea dev
+Hi there 👋
 
-:star: [Tutorial](https://github.com/vn7n24fzkq/github-profile-summary-cards/wiki/Toturial) ( Recommendation ) :star:
+Hi, I'm Kevin Alvarenga, a Full Stack Developer 🚀 from Honduras![:honduras:
+](https://i.imgur.com/6k6Qs2n.png), I have extensive experience in the design and building of web applications.
 
-Action already setup In this template, you just need click `use this template` button to create your repo and wait for workflow to finish.
+![](https://raw.githubusercontent.com/hebertdev/hebertdev/master/img/javascript.gif)
 
-```To create your profile README you need to name the repo as your username```
+- 🔭 I'm currently working on Bluetek
+- 🌱 I'm currently learning Javascript
+- 🤔 I'm looking for help with the lerning route
+- 💬 Ask me about tech support.
+- 📫 How to reach me: kevin.alvarenga93@gmail.com
+- ⚡ Fun facts: I am from Honduras.
 
-| :bell: | Don't forget to modify the image (All of images are in `profile-summary-card-output` folder). |
-| :-------: | :-------------------------------------------------------------------------------------------------------- |
+# My stats 
 
-[![](https://raw.githubusercontent.com/vn7n24fzkq/github-profile-summary-cards-example/master/profile-summary-card-output/vue/0-profile-details.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
-[![](https://raw.githubusercontent.com/vn7n24fzkq/github-profile-summary-cards-example/master/profile-summary-card-output/vue/1-repos-per-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards) [![](https://raw.githubusercontent.com/vn7n24fzkq/github-profile-summary-cards-example/master/profile-summary-card-output/vue/2-most-commit-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
-[![](https://raw.githubusercontent.com/vn7n24fzkq/github-profile-summary-cards-example/master/profile-summary-card-output/vue/3-stats.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards) [![](https://raw.githubusercontent.com/vn7n24fzkq/github-profile-summary-cards-example/master/profile-summary-card-output/vue/4-productive-time.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
-
-[More Info](https://github.com/vn7n24fzkq/github-profile-summary-cards)
+[![](https://raw.githubusercontent.com/kevindoblea1/kevindoblea1/master/profile-summary-card-output/2077/0-profile-details.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
+[![](https://raw.githubusercontent.com/kevindoblea1/kevindoblea1/master/profile-summary-card-output/2077/1-repos-per-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards) [![](https://raw.githubusercontent.com/kevindoblea1/kevindoblea1/master/profile-summary-card-output/2077/2-most-commit-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
+[![](https://raw.githubusercontent.com/kevindoblea1/kevindoblea1/master/profile-summary-card-output/2077/3-stats.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards) [![](https://raw.githubusercontent.com/kevindoblea1/kevindoblea1/master/profile-summary-card-output/2077/4-productive-time.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
