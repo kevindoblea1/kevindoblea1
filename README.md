@@ -1,7 +1,7 @@
 # Kevindoblea Dev
 Hi, I'm Kevin Alvarenga, a Full Stack Developer 🚀 from Honduras![:honduras:](https://i.imgur.com/6k6Qs2n.png), I have extensive experience in the design and building of web applications.
 
-- 🔭 I'm currently working on Bluetek
+- 🔭 I'm currently working on Inversiones Amalgamadas.
 - 🌱 I'm currently learning React and Pyton
 - 🤔 I'm looking for help with the lerning route
 - 💬 Ask me about tech support.
