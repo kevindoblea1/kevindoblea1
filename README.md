@@ -1,11 +1,14 @@
 # Kevindoblea Dev
-Hi, I'm Kevin Alvarenga, a Full Stack Developer 🚀 from Honduras![:honduras:](https://i.imgur.com/6k6Qs2n.png), I have extensive experience in tech support and the design, building of web applications.
 
-- 🔭 I'm currently working on Inversiones Amalgamadas.
-- 🌱 I'm currently learning Etical Hacking and Pyton
-- 🤔 I'm looking for help with the lerning route
-- 💬 Ask me about tech support.
+Hi, I'm Kevin Alvarenga — Full-Stack Developer & **Certified Ethical Hacker (CEH)** from Honduras 🇭🇳. I have extensive experience in tech support and in designing and building web applications.
+
+- 🔭 I'm currently working at Inversiones Amalgamadas (INALMA).
+- 🌱 Currently learning Ethical Hacking and Python.
+- 🤝 Open to collaboration and feedback on my learning path.
+- 💬 Ask me about tech support, sysadmin, networking, and web development.
+- 🛡️ Certification: Certified Ethical Hacker (CEH) — EC-Council.
 - 📫 How to reach me: kevin.alvarenga93@gmail.com
+- 🔗 LinkedIn: https://www.linkedin.com/in/kevindoblea/
 
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=kevindoblea1&label=Profile%20views&color=0e75b6&style=flat" alt="kevindoblea1" /> </p>
